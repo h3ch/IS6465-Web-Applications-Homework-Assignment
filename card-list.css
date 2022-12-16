@@ -1,0 +1,76 @@
+body{
+	margin: 0;
+	padding: 0;
+	background: url(AirAsiaAirBus.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-position:center;
+}
+
+.add{
+	text-decoration: black underline;
+	padding-left: 40px;
+}
+
+.customeradd{
+	text-decoration: black underline;
+	padding-left: 40px;
+}
+
+.card{
+     width: 25%;
+	 box-shadow: 2px 2px 20px black;
+     border-radius: 5px; 
+     margin: 2%;
+	 background: #40E0D0;
+	 display: inline-block;
+	 
+    }
+
+.image img{
+  width: 100%;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  
+
+ 
+ }
+
+.title{
+ 
+  text-align: center;
+  padding: 10px;
+  
+ }
+
+h1{
+  font-size: 20px;
+ }
+
+
+.points{
+	padding-left: 300px;
+}
+
+.purchase{
+  padding: 3px;
+  text-align: center;
+ 
+  padding-top: 10px;
+        border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+button{
+  margin-top: 40px;
+  margin-bottom: 10px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding:10px;
+}
+button:hover{
+  background-color: orange;
+  color: #000;
+  transition: .5s;
+  cursor: pointer;
+}
